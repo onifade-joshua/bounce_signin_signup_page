@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="This is bounce organisation  SignIn/SignUp page">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Onifade Joshua">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bounce.css" class="css">
+    <link rel="shortcut icon" href="ico" type="image/x-icon">
+    <title>Bounce SignIn/SignUp page</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="header">
+            <svg width=" 92 " height="52 " viewBox="0 0 92 52 " fill="none " xmlns="http://www.w3.org/2000/svg ">
+                    <path d="M45.4051 23.2973L1 1.09473V28.5574L45.4051 51.922L91.4615 28.5574V1.09473L45.4051 23.2973Z " fill="#3A36DB " stroke="#3A36DB " stroke-width="0.122328 "/>
+                    </svg>
+            <h3>Recover</h3>
+        </div>
+        <form for="" class="form" id="login">
+            <label for=" ">Login</label>
+            <div class="form__message form__message--error"></div>
+            <div class="form__input-group">
+                <input type="text" id="signupUsername" class="form__input" autofocus name="Username" placeholder="Username">
+                <div class="form__input-error-message"></div>
+            </div>
+
+            <div class="form__input-group">
+                <input type="text" class="form__input" autofocus name="email" placeholder="Enter email address">
+                <div class="form__input-error-message"></div>
+            </div>
+
+            <div class="form__input-group">
+                <input type="text" class="form__input" autofocus name="password" placeholder="Password">
+                <div class="form__input-error-message"></div>
+            </div>
+
+            <button class="form__btn" type="submit">Continue</button>
+            <p class="form__text">
+                <a href="#" class="form__link">Forgot your password?</a>
+            </p>
+
+            <p class="form__text">
+                <a href=". /" class="form__link" id="linkCreateAccount">Don't have an account? Create account</a>
+            </p>
+
+        </form>
+        <!--END OF LOGIN FORM SECTION-->
+
+        <!--CREATE ACCOUNT SECTION FORM-->
+        <form for="" class="form form--hidden" id="createAccount">
+            <label for=" ">Create Account</label>
+            <div class="form__message form__message--error"></div>
+            <div class="form__input-group">
+                <input type="text" class="form__input" autofocus name="username" placeholder="Enter username">
+                <div class="form__input-error-message"></div>
+            </div>
+
+            <div class="form__input-group">
+                <input type="text" class="form__input" autofocus name="email" placeholder="Enter email address">
+                <div class="form__input-error-message"></div>
+            </div>
+
+            <div class="form__input-group">
+                <input type="password" class="form__input" autofocus name="password" placeholder="Password">
+                <div class="form__input-error-message"></div>
+            </div>
+
+            <div class="form__input-group">
+                <input type="password" class="form__input" autofocus name="password" placeholder="Confirm password">
+                <div class="form__input-error-message"></div>
+            </div>
+
+            <button class="form__btn" type="submit">Continue</button>
+            <p class="form__text">
+                <a href=". /" class="form__link" id="linkLogin">Already have an account? Sign in</a>
+            </p>
+
+
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
